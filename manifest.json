@@ -1,0 +1,21 @@
+{
+	"mainfest_version": 2,
+	"name": "Yahoo Your Google!",
+	"description": "Chrome Extension to play the classical Yahoo sound when you search google",
+	"version": "1.0.0",
+
+	"content_scripts": [{
+		"js": [
+			"script.js"
+		],
+		"run_at": "document_end",
+		"matches": [
+			"*://www.google.com*"
+		]
+	}],
+
+	"permission": [
+		"activeTab",
+		"*::www.google.com*,
+	]
+}

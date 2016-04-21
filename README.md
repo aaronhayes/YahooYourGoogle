@@ -1,2 +1,2 @@
 # YahooYourGoogle
-Plays the classical "Yahoooooo!!!" Sound when you search on google
+Google Chrome Extension that plays the classical "Yahoooooo!!!" sound when you search on Google.
