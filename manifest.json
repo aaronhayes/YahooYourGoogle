@@ -3,6 +3,14 @@
 	"name": "Yahoo Your Google!",
 	"description": "Chrome Extension to play the classical Yahoo sound when you search google",
 	"version": "0.0.1",
+	"icons": {
+		"32": "icon32.png"
+	},
+
+	"browser_action": {
+		"default_icon": "icon32.png"
+	},
+
 	"content_scripts": [{
 		"js": ["script.js"],
 		"matches": [
